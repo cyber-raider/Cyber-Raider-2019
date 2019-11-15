@@ -27,7 +27,7 @@
    at the registration table for `YOUR IP ADDRESS`
 8. You are welcome to have more than one person signed into your battlespace at 
    a time
-9. I hope that by now you have [Joined the slack channel](https://join.slack.com/t/cyberraider2018/shared_invite/enQtNDkyMTczMjMzODcyLTFmMjA2MGQzYTIzZjk1MzI1NzYxYjJjMDdjNDhkZWQyOTllZTA1OWI0OTI3OGNjYTIzMDMzOTRhMjMzY2E4YWI)
+9. I hope that by now you have [Joined the slack channel](https://join.slack.com/t/cyberraider2019/shared_invite/enQtODM4NjM1NzQ2MTM0LTQ1ODQ0NjdhOWE4ZmNhZjQ0ZGNkNWNjNTA0MjhhZGY1NTcwNzA4NWYxOGMxMDNjMjE1OTI2NzExNGI4ZWY4Y2I)
 
 ### Useful linux tips
 ### `man`
