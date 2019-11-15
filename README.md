@@ -13,7 +13,7 @@
 1. Get your battle space IP address from one of your room's mentors.
 2. Launch *MobaXterm*
 3. Start a *Ubuntu WSL* terminal
-4. Type `cd ~` then `Enter` to Change Directory (cd) into your home directory (~), check what files are currently there with `ls`
+4. Type `cd ~` then `Enter` to Change Directory (cd) into your home directory (`/home/username` which can be shortened to `~`), check what files are currently there with `ls`
 5. Download the SSH private key [Airman Joe's SSH key](airmanjoe.key) with the following command 
    ```
    wget https://raw.githubusercontent.com/cyber-raider/Cyber-Raider-2019/master/airmanjoe.key 
