@@ -20,8 +20,7 @@
    ``` 
    Confirm you have downloaded the file by running `ls` again.  You should see a
    new file in your home directory!
-6. SSH keys wont be trusted if they dont have the correct permissions.  
-   Change yours with `chmod 600 airmanjoe.key`
+6. SSH keys wont be trusted if they dont have the correct permissions.  Change yours with `chmod 600 airmanjoe.key`
 7. SSH into your battlespace with the following: 
    `ssh -i airmanjoe.key airmanjoe@YOUR IP ADDRESS` substituting the IP given to you 
    at the registration table for `YOUR IP ADDRESS`
