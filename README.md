@@ -18,9 +18,14 @@
    ``` 
    Confirm you have downloaded the file by running `ls` to list all files in
    your current directory.
-6. SSH keys wont be trusted if they dont have the correct permissions.  Change yours with `chmod 600 airmanjoe.key`
+6. SSH keys wont be trusted if they dont have the correct permissions.  Change yours with 
+   ```
+   chmod 600 airmanjoe.key
+   ```
 7. SSH into your battlespace with the following: 
-   `ssh -i airmanjoe.key airmanjoe@3.136.124.147` 
+   ```
+   ssh -i airmanjoe.key airmanjoe@3.136.124.147
+   ``` 
 
 ### Useful linux tips
 ### `man`
