@@ -5,28 +5,22 @@
 1. Nothing illegal
 2. Stay inside the battle space (10.0.0.0/24 and any related IP's found)
 3. Do not interfere with other students connecting to the battle space
-4. If you have questions about any of the above, ask your mentor (or room monitor)
+4. If you have questions about any of the above, ask!
 5. Have fun!
 
 ### Getting started
 
-1. Get your battle space IP address from one of your room's mentors.
-2. Launch *MobaXterm*
-3. Start a *Ubuntu WSL* terminal
-4. Type `cd ~` then `Enter` to Change Directory (cd) into your home directory (`/home/username` which can be shortened to `~`), check what files are currently there with `ls`
-5. Download the SSH private key [Airman Joe's SSH key](airmanjoe.key) with the following command 
+1. Your battle-space IP address is `3.136.124.147`
+2. Launch *MobaXterm* and start a *Ubuntu WSL* terminal
+3. Download the SSH private key [Airman Joe's SSH key](airmanjoe.key) with the following command 
    ```
    wget https://raw.githubusercontent.com/cyber-raider/Cyber-Raider-2019/master/airmanjoe.key 
    ``` 
-   Confirm you have downloaded the file by running `ls` again.  You should see a
-   new file in your home directory!
+   Confirm you have downloaded the file by running `ls` to list all files in
+   your current directory.
 6. SSH keys wont be trusted if they dont have the correct permissions.  Change yours with `chmod 600 airmanjoe.key`
 7. SSH into your battlespace with the following: 
-   `ssh -i airmanjoe.key airmanjoe@YOUR IP ADDRESS` substituting the IP given to you 
-   at the registration table for `YOUR IP ADDRESS`
-8. You are welcome to have more than one person signed into your battlespace at 
-   a time
-9. I hope that by now you have [Joined the slack channel](https://join.slack.com/t/cyberraider2019/shared_invite/enQtODM4NjM1NzQ2MTM0LTQ1ODQ0NjdhOWE4ZmNhZjQ0ZGNkNWNjNTA0MjhhZGY1NTcwNzA4NWYxOGMxMDNjMjE1OTI2NzExNGI4ZWY4Y2I)
+   `ssh -i airmanjoe.key airmanjoe@3.136.124.147` 
 
 ### Useful linux tips
 ### `man`
@@ -34,6 +28,7 @@ One of the most important commands in linux is the `man` command.  Typing
 `man` followed by the name of another command shows you the online manual 
 for that command (for example, `man ls` shows you the manual for the `ls` 
 command).
+#### Searching a `man` page
 * You can search a man page by typing `/` followed by the words you are looking for.
 * `n` will take you to the next occurence of your last search
 * `p` will take you to the previous occurence of your last serach
